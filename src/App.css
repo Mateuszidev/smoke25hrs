@@ -809,12 +809,15 @@ footer {
 @media (max-width: 860px) {
   header {
     padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .cart-fab {
     position: sticky;
     top: 14px;
-    margin-left: auto;
+    align-self: flex-end;
     z-index: 3;
   }
 
