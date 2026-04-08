@@ -30,21 +30,29 @@ function SiteShell({ children, cartCount, onOpenCart }) {
             {cartCount > 0 ? <span>{cartCount}</span> : null}
           </button>
 
-          <div className="logo-wrap">
-            <img
-              src="/logo.png"
-              alt="Smoke 25HRS"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-                e.currentTarget.nextSibling.style.display = "flex";
-              }}
-            />
-            <div className="logo-fallback" style={{ display: "none" }}>
-              SM
+          <div className="brand-lockup">
+            <div className="logo-wrap">
+              <img
+                src="/logo.png"
+                alt="Smoke 25HRS"
+                onError={(e) => {
+                  e.currentTarget.style.display = "none";
+                  e.currentTarget.nextSibling.style.display = "flex";
+                }}
+              />
+              <div className="logo-fallback" style={{ display: "none" }}>
+                SM
+              </div>
+            </div>
+            <div className="brand-copy">
+              <p className="brand-kicker">Boutique de pods e essencias</p>
+              <h1 className="brand-name">
+                <span>SMOKE</span>
+                <strong>25HRS</strong>
+              </h1>
+              <p className="tagline">Entrega expressa em todo RJ capital - Envio para todo Brasil</p>
             </div>
           </div>
-          <h1 className="brand-name">SMOKE 25HRS</h1>
-          <p className="tagline">Entrega expressa em todo RJ capital - Envio para todo Brasil</p>
         </header>
 
         <div className="divider">
