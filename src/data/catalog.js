@@ -233,7 +233,7 @@ export const categories = [
       {
         id: "elfbar-bc-10k",
         name: "Elfbar BC10K",
-        price: 140.9,
+        price: 139.9,
         image: "/elfbar-gold.png",
         description:
           "Linha BC com variedade ampla de sabores e forte apelo para quem procura mix premium.",
@@ -258,7 +258,7 @@ export const categories = [
       {
         id: "elfbar-15k",
         name: "Elfbar 15K",
-        price: 140.0,
+        price: 149.9,
         image: "/elfbar-gold.png",
         description:
           "Versao 15K com equilibrio entre gelados, citricos e perfis doces mais redondos.",
@@ -275,7 +275,7 @@ export const categories = [
       {
         id: "elfbar-ew-16k",
         name: "Elfbar EW 16K",
-        price: 145.0,
+        price: 159.9,
         image: "/elfbar-gold.png",
         description:
           "Linha com boa saida para clientes que buscam sabores gelados e frutas marcantes.",
@@ -292,7 +292,7 @@ export const categories = [
       {
         id: "elfbar-gh-23k",
         name: "Elfbar GH 23K",
-        price: 160.0,
+        price: 169.9,
         image: "/elfbar-gold.png",
         description:
           "Modelo 23K com mix focado em uvas, mints e sabores de alto frescor.",
@@ -310,7 +310,7 @@ export const categories = [
       {
         id: "elfbar-30k-te",
         name: "Elfbar 30K TE",
-        price: 180.0,
+        price: 179.9,
         image: "/elfbar-gold.png",
         description:
           "Linha extensa com sabores divertidos, perfil bubblegum, frutas tropicais e menthol.",
@@ -333,7 +333,7 @@ export const categories = [
       {
         id: "elfbar-30k-black-gold",
         name: "Elfbar 30K Black Gold",
-        price: 144.9,
+        price: 179.9,
         image: "/elfbar-gold.png",
         description:
           "Edicao especial com proposta mais exclusiva e sabor unico de perfil citrico e verde.",
@@ -371,6 +371,7 @@ export const categories = [
           "Strawberry Ice",
           "Strawberry Kiwi",
           "Watermelon Ice",
+          "Menta ice"
         ],
       },
     ],
