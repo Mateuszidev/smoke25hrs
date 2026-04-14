@@ -41,8 +41,8 @@ export const categories = [
         description:
           "Versao compacta da linha Ignite, ideal para quem quer sabores classicos e perfil refrescante.",
         flavors: [
-          "Aloe Grape",
-          "Icy Mint",
+          "Grape",
+          "Ice Mint",
           "Miami Mint",
           "Minty Melon",
           "Melon Mix",
@@ -70,7 +70,7 @@ export const categories = [
           "Frozen Blueberry",
           "Frozen Grape",
           "Frozen Watermelon",
-          "Icy Mint",
+          "Ice Mint",
           "Menthol",
           "Pomegranate Acai Berry Roma",
           "Green Apple",
@@ -121,7 +121,7 @@ export const categories = [
         image: "/ignite-black.png",
         description:
           "Opcao focada em sabores diretos e refrescantes para quem prefere escolhas objetivas.",
-        flavors: ["Green Apple", "Menthol", "Sweet Sour and Pomegranate"],
+        flavors: ["Green Apple", "Menthol", "Sweet Sour and Pomegranate", "Grape"],
       },
       {
         id: "ignite-v300",
@@ -169,7 +169,7 @@ export const categories = [
         description:
           "Linha mix com combinacoes duplas e sabores mais ousados para quem busca variedade.",
         flavors: [
-          "Icy Mint / Peach Grape",
+          "Ice Mint / Peach Grape",
           "Grape Pop / Peach Ice",
           "Passion Fruit Sour Kiwi / Pineapple Ice",
           "Peach Watermelon Ice / Mango Ice",
