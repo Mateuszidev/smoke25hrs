@@ -16,7 +16,6 @@ export const categories = [
         description:
           "Modelo premium com proposta dual flavor, visual sofisticado e foco em alto rendimento.",
         flavors: [
-          "Grape Blueberry / Cherry Berry",
           "Grape / Grape Mango",
           "Grape / Menthol",
           "Grape Mango / Fresh Mint",
@@ -41,14 +40,12 @@ export const categories = [
         description:
           "Versao compacta da linha Ignite, ideal para quem quer sabores classicos e perfil refrescante.",
         flavors: [
-          "Grape",
-          "Ice Mint",
+          "Aloe Grape",
+          "Grape Apple Acai",
           "Miami Mint",
           "Minty Melon",
+          "Menthol",
           "Melon Mix",
-          "Strawberry Ice",
-          "Strawberry Banana",
-          "Strawberry Watermelon",
           "Watermelon Ice",
         ],
       },
@@ -62,22 +59,19 @@ export const categories = [
         flavors: [
           "Acai Ice",
           "Banana Ice",
-          "Banana Cherry",
           "Blueberry Ice",
           "Blueberry Lemon",
           "Frozen Mint Water",
           "Frozen Apple",
           "Frozen Blueberry",
-          "Frozen Grape",
-          "Frozen Watermelon",
-          "Ice Mint",
-          "Menthol",
+          "Grape Ice",
+          "Icy Mint",
           "Pomegranate Acai Berry Roma",
-          "Green Apple",
           "Grapefruit Mint",
-          "Strawberry Ice",
+          "Mojito Mint",
+          "Strawberry Kiwi",
+          "Spearmint Gum",
           "Passion Fruit Sour Kiwi",
-          "Watermelon Ice",
         ],
       },
       {
@@ -88,10 +82,15 @@ export const categories = [
         description:
           "Linha de maior autonomia com poucos sabores selecionados e boa rotatividade de venda.",
         flavors: [
-          "Berry Blast",
-          "Blueberry Ice",
+          "Aloe Grape",
+          "Cherry Banana",
+          "Cherry Watermelon",
+          "Grape Ice",
           "Green Apple",
+          "Green Apple Peach Kiwi",
+          "Pineapple Ice",
           "Strawberry Apple Watermelon",
+          "Watermelon Mix",
         ],
       },
       {
@@ -102,16 +101,11 @@ export const categories = [
         description:
           "Modelo de alta duracao com destaque para mints, frutas simples e combinacoes tropicais.",
         flavors: [
-          "Banana Ice",
-          "Blueberry Ice",
-          "Grape Ice",
           "Green Apple",
-          "Menthol",
-          "Strawberry Ice",
-          "Strawberry Banana",
+          "Icy Mint",
+          "Kiwi Passion Fruit Guava",
+          "Strawberry Watermelon Ice",
           "Tropical Acai",
-          "Watermelon Dragon Fruit",
-          "Watermelon Ice",
         ],
       },
       {
@@ -121,7 +115,7 @@ export const categories = [
         image: "/ignite-black.png",
         description:
           "Opcao focada em sabores diretos e refrescantes para quem prefere escolhas objetivas.",
-        flavors: ["Green Apple", "Menthol", "Sweet Sour and Pomegranate", "Grape"],
+        flavors: ["Banana Ice", "Green Apple", "Sweet Sour and Pomegranate"],
       },
       {
         id: "ignite-v300",
@@ -131,14 +125,12 @@ export const categories = [
         description:
           "Versao robusta com portfolio equilibrado entre frutas, gelados e linhas especiais.",
         flavors: [
-          "Aloe Grape Ice",
-          "Banana Ice",
           "Blueberry Ice",
-          "Grape",
           "Green Apple Ice",
           "Cactus Lime Soda Pitaya",
-          "Menthol",
           "Mint Melon",
+          "Pineapple Kiwi Dragon",
+          "Peach Mango",
           "Sweet and Sour Pomegranate",
           "Strawberry Ice",
           "Strawberry Kiwi",
@@ -153,11 +145,11 @@ export const categories = [
         description:
           "Modelo premium com sabores fortes e boa presenca de menta, uva e combinacoes frutadas.",
         flavors: [
-          "Blueberry",
+          "Blueberry Ice",
           "Grape",
           "Menthol",
-          "Sakura Grape",
-          "Strawberry Kiwi",
+          "Passion Fruit Sour Kiwi",
+          "Strawberry Watermelon",
           "Watermelon",
         ],
       },
@@ -169,12 +161,9 @@ export const categories = [
         description:
           "Linha mix com combinacoes duplas e sabores mais ousados para quem busca variedade.",
         flavors: [
-          "Ice Mint / Peach Grape",
           "Grape Pop / Peach Ice",
-          "Passion Fruit Sour Kiwi / Pineapple Ice",
+          "Grape Ice / Watermelon",
           "Peach Watermelon Ice / Mango Ice",
-          "Pineapple Mango / Strawberry Ice",
-          "Watermelon Grape Ice / Acai Ice",
         ],
       },
     ],
@@ -182,8 +171,7 @@ export const categories = [
   {
     slug: "extre-bar",
     name: "Extre Bar",
-    teaser:
-      "Linha Turbo X 30K com sabores populares e perfil bem comercial.",
+    teaser: "Linha Turbo X 30K com sabores populares e perfil bem comercial.",
     image: "/extre-bar.png",
     accent: "EX",
     products: [
@@ -196,9 +184,11 @@ export const categories = [
           "Modelo descartavel com foco em giro rapido, sabores conhecidos e visual de alto impacto.",
         flavors: [
           "Blue Razz Ice",
+          "Grape Slusch",
           "Miami Mint",
           "Strawberry Banana",
           "Strawberry Mango",
+          "Strawberry Kiwi",
           "Watermelon Ice",
         ],
       },
@@ -264,12 +254,13 @@ export const categories = [
           "Versao 15K com equilibrio entre gelados, citricos e perfis doces mais redondos.",
         flavors: [
           "Blueberry Ice",
-          "Elf Love",
           "Green Apple Ice",
           "Kiwi Passion Fruit Guava",
+          "Mango Magic",
           "Sour Apple Ice",
           "Strawberry Watermelon",
-          "Watermelon Ice",
+          "Strawberry Ice",
+          "Tropical Lemonade",
         ],
       },
       {
@@ -280,12 +271,27 @@ export const categories = [
         description:
           "Linha com boa saida para clientes que buscam sabores gelados e frutas marcantes.",
         flavors: [
-          "Blue Razz Grape Ice",
           "Dragon Melon Ice",
           "Grape Ice",
           "Mango Twist",
           "Strawberry Ice",
           "Strawberry Kiwi",
+          "Watermelon Ice",
+        ],
+      },
+      {
+        id: "elfbar-joinone-25k-refil",
+        name: "Elfbar Joinone 25K Refil",
+        price: 169.9,
+        image: "/elfbar-gold.png",
+        description:
+          "Linha refill com perfil premium, foco em refrescancia e combinacoes frutadas de giro rapido.",
+        flavors: [
+          "Cool Mint",
+          "Blue Raz Ice",
+          "Grape Ice",
+          "Kiwi Passion Fruit",
+          "Mango Peach Watermelon",
           "Watermelon Ice",
         ],
       },
@@ -296,16 +302,7 @@ export const categories = [
         image: "/elfbar-gold.png",
         description:
           "Modelo 23K com mix focado em uvas, mints e sabores de alto frescor.",
-        flavors: [
-          "Blue Razz Ice",
-          "Blueberry Pear",
-          "Grape Ice",
-          "Ice Mint",
-          "Spring Mint",
-          "Strawberry Ice",
-          "Strawberry Banana",
-          "Sakura Grape",
-        ],
+        flavors: ["Blueberry Pear", "Ice Mint", "Spring Mint", "Sakura Grape"],
       },
       {
         id: "elfbar-30k-te",
@@ -315,19 +312,17 @@ export const categories = [
         description:
           "Linha extensa com sabores divertidos, perfil bubblegum, frutas tropicais e menthol.",
         flavors: [
-          "Acai Banana Ice",
           "Bubballoo Tutti Fruit",
-          "Bubballoo Grape",
+          "Blueberry Ice",
           "Cherry Strazz",
-          "Dragon Strawnana",
-          "Guava Passion Fruit Kiwi",
           "Green Apple",
           "Menthol",
           "Miami Mint",
+          "Peach Mango Watermelon",
+          "Pineapple Mango",
+          "Pineapple Ice",
           "Spearmint",
-          "Strawberry Ice",
-          "Strawberry Watermelon Ice",
-          "Watermelon Ice",
+          "Winter Mint",
         ],
       },
       {
@@ -348,13 +343,14 @@ export const categories = [
           "Versao high puff com sabores frios, frutas escuras e combinacoes intensas.",
         flavors: [
           "Black Mint",
-          "Blue Razz",
-          "Cherry Strazz",
+          "Blue Raz Ice",
+          "Grape Ice",
+          "Cherry Fuse",
           "Double Apple Ice",
           "Green Apple",
-          "Green Apple Alush",
-          "Mango Magic",
-          "Strawberry Watermelon",
+          "Green Apple Slush",
+          "Miami Mint",
+          "Watermelon Ice",
         ],
       },
       {
@@ -368,10 +364,8 @@ export const categories = [
           "Cool Menthol",
           "Grape Ice",
           "Green Apple Ice",
-          "Strawberry Ice",
+          "Miami Mint",
           "Strawberry Kiwi",
-          "Watermelon Ice",
-          "Menta ice"
         ],
       },
     ],
