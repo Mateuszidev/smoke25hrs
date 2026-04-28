@@ -36,7 +36,7 @@ export const categories = [
         id: "ignite-v55",
         name: "Ignite V55",
         price: 99.9,
-        image: "/ignite-black.png",
+        image: "/ignitev55.png",
         description:
           "Versao compacta da linha Ignite, ideal para quem quer sabores classicos e perfil refrescante.",
         flavors: [
@@ -53,7 +53,7 @@ export const categories = [
         id: "ignite-v80",
         name: "Ignite V80",
         price: 119.9,
-        image: "/ignite-black.png",
+        image: "/ignitev80.png",
         description:
           "Modelo intermediario com mix amplo de frutas, mints e perfis frozen para publico variado.",
         flavors: [
@@ -78,7 +78,7 @@ export const categories = [
         id: "ignite-v150",
         name: "Ignite V150",
         price: 129.9,
-        image: "/ignite-black.png",
+        image: "/Ignitev150.png",
         description:
           "Linha de maior autonomia com poucos sabores selecionados e boa rotatividade de venda.",
         flavors: [
@@ -97,7 +97,7 @@ export const categories = [
         id: "ignite-v155",
         name: "Ignite V155",
         price: 139.9,
-        image: "/ignite-black.png",
+        image: "/ignitev155.png",
         description:
           "Modelo de alta duracao com destaque para mints, frutas simples e combinacoes tropicais.",
         flavors: [

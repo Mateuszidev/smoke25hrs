@@ -386,8 +386,12 @@ header {
 
 .card-image {
   width: 100%;
-  height: 220px;
-  background: var(--bg3);
+  aspect-ratio: 4 / 3;
+  min-height: 220px;
+  padding: 18px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(232, 184, 75, 0.14), transparent 48%),
+    linear-gradient(145deg, rgba(14, 8, 5, 0.78), var(--bg3));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,7 +403,7 @@ header {
 .category-preview img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -522,6 +526,10 @@ header {
 
 .category-preview {
   min-height: 280px;
+  padding: 22px;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(232, 184, 75, 0.16), transparent 50%),
+    linear-gradient(145deg, var(--card) 0%, var(--card2) 100%);
 }
 
 .product-list {
@@ -559,14 +567,18 @@ header {
 }
 
 .product-card-image {
-  height: 260px;
-  background: var(--bg3);
+  aspect-ratio: 4 / 3;
+  min-height: 240px;
+  padding: 20px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(232, 184, 75, 0.14), transparent 48%),
+    linear-gradient(145deg, rgba(14, 8, 5, 0.78), var(--bg3));
 }
 
 .product-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -731,8 +743,11 @@ header {
   width: 88px;
   height: 88px;
   border-radius: 14px;
-  object-fit: cover;
-  background: var(--bg3);
+  object-fit: contain;
+  padding: 8px;
+  background:
+    radial-gradient(circle at center, rgba(232, 184, 75, 0.12), transparent 55%),
+    var(--bg3);
 }
 
 .cart-item-body h3 {
